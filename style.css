@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Navigation Menu */
 #mainNav {
     display: flex;
     width: 100%;
@@ -13,45 +13,46 @@
     align-items: center;
     border-bottom: 1px solid #BABABA;
 }
+    #menuTop {
+        display: flex;
+        width: 55%;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 5%;
+    }
+        #menuTop a {
+            color: #FFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-decoration: none;
+        }
 
-#mainNav div a {
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;  
-    text-decoration: none;
+    #mainNav button {
+        width: 80px;
+        height: 39px;
+        background-color: #0C70F2;
+        color: #FFF;
+        box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        margin-right: 5%;
+    }
+        #mainNav button:hover {
+            background-color: #0c5dc8;
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition-duration: 0.2s;
+        }
+/* Page Content */
+body {
+    /* (direção, cor porcentagem, cor porcentagem) cor; */
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+    background-repeat: no-repeat;
 }
-
-#menuTop {
-    display: flex;
-    width: 55%;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 5%;
-}
-
-#mainNav button {
-    width: 80px;
-    height: 39px;
-    background-color: #0C70F2;
-    color: #FFF;
-    /* Box-Shadow: horizontal(px) vertical(px) blur(px) cor */
-    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border: none;
-    margin-right: 5%;
-}
-
-#mainNav button:hover {
-    background-color: #0c5dc8;
-    cursor: pointer;
-    transform: translateY(-1px);
-    transition-duration: 0.2s;
-}
-
