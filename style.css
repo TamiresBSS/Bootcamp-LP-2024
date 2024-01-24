@@ -76,7 +76,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -114,7 +114,8 @@ form {
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;  
+    line-height: normal;
+    padding-bottom: 268px;  
 }
 
 .formGroup {
@@ -171,3 +172,91 @@ form label {
             /* Espaçamento */
             margin-top: 80px;
     }
+/* Estilização do Rodapé */
+
+footer {
+    width: 100%;
+    background-color: var(--azulDnc);
+    }
+
+    #linha1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+        footer nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 330px;
+            
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+            footer h5 {
+                font-weight: 800;
+                background-color: var(--pretoDnc);
+                border-radius: 10px;
+                padding: 10px 15px 10px 15px;
+                margin-top:45px ;
+            }
+
+            .listed {
+                text-align: center;
+                font-size: 25px;
+                font-weight: 800;
+                color: white;
+                font-family: var(--fontPadrao);
+            }
+                ul li {
+                    margin: 20px 0px 20px 0px;
+
+                }
+
+                ul li a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                ul li a:hover {
+                    color: var(--cinzaDnc);
+                }
+
+        footer #address {
+            font-family: var(--fontPadrao);
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            width: 35%;
+            margin-top: 5%;
+        }
+
+        #linha2 {
+            height: 35px;
+            margin-top: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #linha2 a {
+            font-family: var(--fontPadrao);
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+            #linha2 a:first-child {
+                border-right: 3px solid white;
+            }
+
+            #linha2 a:hover {
+                color: var(--cinzaDnc);
+            }
+
