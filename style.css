@@ -303,4 +303,32 @@ footer {
     #cad {
         padding: 0px;
     }
+    /* Rodapé */
+    footer {
+
+    }
+
+    footer #linha1 {
+        flex-direction: column;
+    }
+
+    footer #address {
+        width: 90%;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    footer #linha2 {
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    footer #linha2 a {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #frase input::placeholder {
+        font-size: smaller;
+    }
 }
