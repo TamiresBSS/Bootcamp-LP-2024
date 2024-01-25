@@ -303,11 +303,9 @@ footer {
     #cad {
         padding: 0px;
     }
+
     /* Rodapé */
-    footer {
-
-    }
-
+    
     footer #linha1 {
         flex-direction: column;
     }
